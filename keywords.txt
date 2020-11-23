@@ -1,0 +1,26 @@
+###########################################
+# Syntax Coloring Map For TMP75 library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+TMP75	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+begin	KEYWORD2
+readTemperature	KEYWORD2
+setHighLimit	KEYWORD2
+setLowLimit	KEYWORD2
+###########################################
+# Constants (LITERAL1)
+###########################################
+TMP75_DEFAULT_ADDR	LITERAL1
+TMP75_DEFAULT_CONFIG 	LITERAL1
+TMP75_TEMP_REG		LITERAL1
+TMP75_CONF_REG		LITERAL1
+TMP75_TLOW_REG		LITERAL1
+TMP75_THIGH_REG		LITERAL1
+
