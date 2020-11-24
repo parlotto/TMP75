@@ -1,3 +1,4 @@
+#include<Wire.h>
 #include <tmp75.h>
 
 #define T_LOW 24.8
@@ -6,6 +7,7 @@
 TMP75 mySensor; // mySensor at default i2c address
 
 void setup(){
+  Wire.begin(); // initialize i2c library
   Serial.begin(9600);
   int error=mySensor.begin();
   if (error) {
